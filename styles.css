@@ -1,0 +1,27 @@
+@keyframes FadeIn {
+    from{opacity:0}
+    to{opacity:1}
+}
+
+.run-animation {
+    animation: FadeIn 1s;
+}
+
+body {
+    animation: FadeIn 1s;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.InputBox{
+    display:flex;
+    gap:5px;
+    align-items:baseline
+}
+
+#TopText, #BottomText{
+    margin: 10px;
+}
