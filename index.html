@@ -8,11 +8,17 @@
     <title>Javascript Test</title>
     </head>
 <body>
-        <p id="TopText">Take a number and multiply it by 3</p>
-        <div class="InputBox">
+    <p id="TopText">Choose a difficulity</p> 
+        <!-- <p id="TopText">Take a number and multiply it by 3</p> -->
+    <div class="middleText">
+        <button type="button" onClick="Easy()" class="btn btn-success">Easy</button>
+        <button type="button" class="btn btn-warning">Medium</button>
+        <button type="button" class="btn btn-danger">Hard</button>
+    </div>
+        <!-- <div class="InputBox">
             <input type="text" id="myInput" class="form-control" placeholder="Enter number here"></input>
             <button onClick="getInput()" class="btn btn-secondary">Submit</button>
-        </div>
+        </div> -->
         <p id="BottomText"><span id="userNumber">&nbsp</span></p>
     <script src="script.js"></script>
 </body>

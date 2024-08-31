@@ -3,8 +3,16 @@
     to{opacity:1}
 }
 
-.run-animation {
+@keyframes FadeOut {
+    from{opacity:1}
+    to{opacity:0}
+}
+.run-FadeIn {
     animation: FadeIn 1s;
+}
+
+.run-FadeOut {
+    animation: FadeOut 1s;
 }
 
 body {
@@ -16,7 +24,7 @@ body {
     min-height: 100vh;
 }
 
-.InputBox{
+.MiddleText{
     display:flex;
     gap:5px;
     align-items:baseline
